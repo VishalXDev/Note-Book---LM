@@ -41,6 +41,8 @@ Inspired by Google’s NotebookLM, this clone empowers you to interact with your
 ### 1. Clone and Install Dependencies
 
 ```bash
+git clone https://github.com/VishalXDev/Note-Book---LM.git
+cd Note-Book---LM
 npm install
 2. Set Up Environment Variables
 Create a .env.local file at the root and paste the following:
@@ -59,36 +61,38 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 # AI Keys
 LLAMA_CLOUD_API_KEY=
 GEMINI_API_KEY=
-✅ You can find your Firebase config under Project Settings > General in Firebase Console.
-🔑 Get your LlamaParse key from LlamaCloud.
-🔐 Get your Gemini key from Google AI Studio.
+🔑 Get your Firebase config from Firebase Console > Project Settings > General
+
+🧠 Get your LlamaParse API key from LlamaCloud
+
+🤖 Get your Gemini API key from Google AI Studio
 
 3. Enable CORS for Firebase Storage
-To allow PDFs to load from Firebase Storage, run this:
+Run this to allow PDFs to load from Firebase Storage:
 
 bash
 Copy
 Edit
 gcloud storage buckets update gs://your-storage-bucket --cors-file=cors.json
-Make sure you replace your-storage-bucket with your actual bucket name.
+Replace your-storage-bucket with your actual Firebase Storage bucket name.
 
 4. Start the Dev Server
 bash
 Copy
 Edit
 npm run dev
-Visit 👉 http://localhost:9002
+Open your browser at 👉 http://localhost:9002
 
 🌍 Deployment
 You can deploy this app to:
 
-Firebase App Hosting
+🔥 Firebase Hosting
 
-Vercel
+▲ Vercel
 
-Netlify
+🌐 Netlify
 
-Just make sure to add the same environment variables from .env.local in your deployment platform settings.
+Make sure to copy your .env.local variables into the platform's environment settings.
 
 📌 Credits
 Made with precision, creativity, and late-night debugging by
