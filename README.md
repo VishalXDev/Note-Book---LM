@@ -2,7 +2,7 @@
 
 Built with ❤️ by **Vishal X Dwivedy**
 
----
+[🌐 Live Demo](https://note-book-lm-gamma.vercel.app/)
 
 NotebookLM Clone is a modern web-based application that lets you **upload large PDF files**, **view them inside the browser**, and **chat with them using AI** – all in one clean, intuitive interface.
 
@@ -12,27 +12,27 @@ Inspired by Google’s NotebookLM, this clone empowers you to interact with your
 
 ## 🚀 Features
 
-- 📁 **Upload & View PDFs**  
-  Seamlessly upload large PDF files and read them with a smooth in-app viewer.
+### 📁 Upload & View PDFs  
+Seamlessly upload large PDF files and read them with a smooth in-app viewer.
 
-- 💬 **Chat Interface**  
-  Ask anything about your PDF. The AI understands context and gives accurate, concise answers.
+### 💬 Chat Interface  
+Ask anything about your PDF. The AI understands context and gives accurate, concise answers.
 
-- 🔖 **Smart Citations & Navigation**  
-  Each response comes with clickable citations. Tap to scroll directly to the referenced PDF page.
+### 🔖 Smart Citations & Navigation  
+Each response comes with clickable citations. Tap to scroll directly to the referenced PDF page.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer             | Technology |
-|------------------|------------|
-| Framework        | [Next.js 14+](https://nextjs.org/) (App Router) |
-| Language         | [TypeScript](https://www.typescriptlang.org/) |
-| UI Components    | [shadcn/ui](https://ui.shadcn.com/) + [Tailwind CSS](https://tailwindcss.com/) |
-| AI Integration   | [Genkit (Google Gemini)](https://firebase.google.com/docs/genkit) |
-| PDF Parsing      | [LlamaParse](https://github.com/run-llama/llama_parse) |
-| File Storage     | [Firebase Storage](https://firebase.google.com/docs/storage) |
+| Layer         | Technology                     |
+| ------------- | ------------------------------ |
+| Framework     | Next.js 14+ (App Router)       |
+| Language      | TypeScript                     |
+| UI Components | shadcn/ui + Tailwind CSS       |
+| AI Integration| Genkit (Google Gemini)         |
+| PDF Parsing   | LlamaParse                     |
+| File Storage  | Firebase Storage               |
 
 ---
 
@@ -68,7 +68,7 @@ GEMINI_API_KEY=
 🤖 Get your Gemini API key from Google AI Studio
 
 3. Enable CORS for Firebase Storage
-Run this to allow PDFs to load from Firebase Storage:
+Run this command to allow PDFs to load from Firebase Storage:
 
 bash
 Copy
@@ -81,7 +81,7 @@ bash
 Copy
 Edit
 npm run dev
-Open your browser at 👉 http://localhost:9002
+Visit your local dev server: http://localhost:9002
 
 🌍 Deployment
 You can deploy this app to:
@@ -92,7 +92,7 @@ You can deploy this app to:
 
 🌐 Netlify
 
-Make sure to copy your .env.local variables into the platform's environment settings.
+Make sure to copy your .env.local variables into your deployment platform's environment settings.
 
 📌 Credits
 Made with precision, creativity, and late-night debugging by
@@ -100,5 +100,8 @@ Vishal X Dwivedy
 
 🧠 Reference
 Inspired by the original Google NotebookLM concept.
+
+🔗 Live Demo
+👉 https://note-book-lm-gamma.vercel.app/
 
 Happy building! 🚀
